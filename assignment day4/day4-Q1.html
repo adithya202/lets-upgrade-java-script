@@ -1,0 +1,30 @@
+<html>
+	<body>
+		<center>
+			<img src="1.png" id="Image" height="300px" width="300px"><br><br>
+			<input type="button" onclick="ChangeImage1()" value="Image1"><br><br>
+			<!--<button onclick="ChangeImage()" value="Image2" >Image2</button>-->
+			<input type="button" onclick="ChangeImage2()" value="Image2"><br><br>
+			<input type="button" onclick="ChangeImage3()" value="Image3">
+		</center>
+		<script>
+			function ChangeImage1()
+	{
+		const I1=document.getElementById("Image");
+		I1.src="1.png";
+	}
+function ChangeImage2()
+	{
+		const I2=document.getElementById("Image");
+		const new_url="2.png"	
+		I2.src=new_url;
+	}
+function ChangeImage3()
+	{
+		const I3=document.getElementById("Image");
+		I3.src="3.png";
+	}
+
+		</script>
+	</body>
+</html>
